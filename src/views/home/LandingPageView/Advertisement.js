@@ -15,7 +15,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import ExImg from './images/rocket_web.png';
 import './APP.css';
 
-// ----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-// ----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 
 const getImg = (width) =>
   `${BASE_IMG}w_${width}/v1611481147/upload_minimal/home/rocket.png`;
